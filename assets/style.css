@@ -1,0 +1,47 @@
+* {
+    /* how much thr space that required out side of the element and margin is not visible on the page
+    the margin will process in the buffer */
+    margin: 10px;
+    padding: 0;
+}
+h1,
+h2 {
+    text-align: center;
+    
+}
+img {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul {
+    padding-left: 40px;
+    font-size: 20px;
+}
+p {
+    text-align: center;
+    font-size: 20px;
+  }
+/* 
+
+div 
+{
+    declaration
+}
+
+declaration 
+
+    color: blue; text-align: justify;
+
+header,
+footer{
+    width: 100%;
+    heoght: 120px;
+    background-color:blue;
+    color:white;
+
+    }
+
+*/
