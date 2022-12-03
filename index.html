@@ -47,15 +47,23 @@
         </div>
         <li>Encoding HTML File</li>
         <div>
-          <p>Always need to specify the encoding by using <b>meta</b> element <b>charset attribute or http-equiv and
+          <link>Always need to specify the encoding using <b>meta</b> element <b>charset attribute or http-equiv and
               content</b>
-            recomended to delcare after the opening &lt;head> tag</p>
+            recomended to delcare after the opening &lt;head> tag. There is reason for this; the declaration should within first 
+          1024 bytes (1 kb. Further <a href="https://validator.w3.org/i18n-checker/" target="_blank"> W3C Internationalization checker</a> </p>
           <pre>
             <code>
               &lt;!DOCTYPE html>
               &lt;html lang="en">
               &lt;head>
               &lt;meta charset="utf-8">
+            </code>
+            <code>
+              &lt;!DOCTYPE html>
+              &lt;html lang="en">
+              &lt;head>
+              &lt;meta http-equiv="Content-Type" 
+                    content="text/html; charset=utf-8">
             </code>
           </pre>
         </div>
