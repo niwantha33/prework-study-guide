@@ -68,6 +68,18 @@
                 <mxCell id="24" value="Git Flow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
                     <mxGeometry x="240" y="40" width="60" height="30" as="geometry"/>
                 </mxCell>
+                <mxCell id="25" value="git add -A&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="600" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="git commit -m 'ex:added css'&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="620" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="git pull&amp;nbsp; origin main" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="640" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="git push -u origin feature/add-html&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="660" width="200" height="20" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
